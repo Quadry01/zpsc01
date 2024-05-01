@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
+    plugins: [
+    require('tailwindcss-animated')
+  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,10 +12,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('/public/hero.jpg')",
+        "hero-bg": "url('/public/hero.jpg')",
+        "about-bg": "url('/public/abt.jpg')",
       },
       colors: {
-        'gray-blue': '#2C4E80',
+        "gray-blue": "#2C4E80",
+        "green-blue": "#153448"
       },
     },
   },

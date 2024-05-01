@@ -13,7 +13,7 @@ export default function Home() {
       <div className="">
         {/* HERO CONTAINER */}
 
-        <section className="bg-center bg-no-repeat bg-[url('/about.jpg')] bg-cover bg-gray-700 bg-blend-multiply">
+        <section className=" animate-fade-down bg-center bg-no-repeat bg-[url('/about.jpg')] bg-cover bg-gray-700 bg-blend-multiply max-[600px]:bg-center">
           <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
               ZERO PLASTIC STRAW COMMUNITY
@@ -71,30 +71,30 @@ export default function Home() {
 
         <div id="cta" className="grid md:grid-cols-3 gap-0  text-white h-screen px-20 max-[600px]:px-4 max-[600px]:h-auto max-[600px]:py-20 py-40">
           <div className="  border border-gray-200 bg-gray-blue h-96 rounded-lg p-12 max-[600px]:mt-4 ">
-            <h2 className=" text-xl font-extrabold mb-2">Become a Volunteer</h2>
+            <h2 className=" text-3xl font-extrabold mb-2">Become a Volunteer</h2>
             <p className="text-lg text-justify font-normal  mb-4">
               You can take a bigger step by joining our organization, taking a
               step to learn more about the environment, taking a step to educate
               others about the environment and so many more. We are open to new
               members.
             </p>
-            <button className="border-4 p-2  bg-gray-blue mt-4 w-35 rounded-xl">
+            <button className="border-4 p-2  bg-gray-blue mt-1 w-35 rounded-xl">
               Join Team
             </button>
           </div>
           <div className="  border border-gray-200 bg-gray-800 h-96 rounded-lg  p-12 max-[600px]:mt-4">
-            <h2 className="  text-xl font-extrabold mb-2">View Our Events</h2>
+            <h2 className="  text-3xl font-extrabold mb-2">View Our Events</h2>
             <p className="text-lg text-justify font-normal   mb-4">
               At ZPSC, We prioritize Environmental education. In the community,
               we have frequent sessions/teachings on matters of the environment
               and climate issues.{" "}
             </p>{" "}
-            <button className="border-4 p-2  bg-gray-800   mt-4 w-35 rounded-xl">
+            <button className="border-4 p-2  bg-gray-800   mt-1 w-35 rounded-xl">
              Get Involved
             </button>
           </div>
           <div className="  border border-gray-200 bg-gray-blue h-96 rounded-lg  p-12 max-[600px]:mt-4">
-            <h2 className="  text-xl font-extrabold mb-2">
+            <h2 className="  text-3xl font-extrabold mb-2">
               Start Donating Now
             </h2>
             <p className="text-lg text-justify font-normal   mb-4">
@@ -103,7 +103,7 @@ export default function Home() {
               eradicate pollution especially Single use Plastics and bring
               solutions to climate issues.{" "}
             </p>{" "}
-            <button className="border-4 p-2 bg-gray-blue mt-4 w-35 rounded-xl">
+            <button className="border-4 p-2 bg-gray-blue mt-1 w-35 rounded-xl">
               Donate Now
             </button>
           </div>
