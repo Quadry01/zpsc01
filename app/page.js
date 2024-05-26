@@ -50,7 +50,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 2 */}
-        <div id="mission" className="pt-48 bg-gray-800 grid md:grid-cols-2 gap-8 text-white px-20 h-screen max-[600px]:px-4 max-[600px]:pt-10 max-[600px]:h-auto py-20">
+        <div id="mission" className=" pt-48 bg-gray-800 grid md:grid-cols-2 gap-8 text-white px-20 h-screen max-[600px]:px-4 max-[600px]:pt-10 max-[600px]:h-auto py-20">
           <div className="  border border-gray-200 bg-gray-blue rounded-3xl h-52 p-8 md:p-12">
             <h2 className=" text-3xl font-extrabold mb-2">Mission</h2>
             <p className="text-lg text-justify font-normal  mb-4">

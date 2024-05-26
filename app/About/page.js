@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { GiWaterfall } from "react-icons/gi";
 import { FaEarthAmericas } from "react-icons/fa6";
@@ -7,7 +7,7 @@ import { MdAir } from "react-icons/md";
 function Page() {
   return (
     <>
-      <section className="bg-green-blue text-white ">
+      <section className=" animate-fade-up  bg-green-blue text-white ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex flex-col justify-center">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl">
@@ -45,7 +45,7 @@ function Page() {
           <div>
             <iframe
               className="mx-auto w-full lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl"
-              src="https://www.youtube.com/embed/a3ICNMQW7Ok?si=WbdrUEriTHKjA2HT"
+              src="https://www.youtube.com/embed/NLR5PYbuYrk?si=omjZbM6g1_JnN07K"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -68,23 +68,23 @@ function Page() {
               </p>
             </div>
             <div className="flex flex-col justify-center items-center">
-<FaEarthAmericas className="text-white text-6xl" />
+              <FaEarthAmericas className="text-white text-6xl" />
               <p className="mb-8 text-2xl font-normal text-gray-300 lg:text-xl sm:px-4 lg:px-10">
                 Protect the Earth
               </p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <MdAir className="text-white text-6xl"/>
+              <MdAir className="text-white text-6xl" />
               <p className="mb-8 text-2xl font-normal text-gray-300 lg:text-xl sm:px-4 lg:px-10">
                 Protect the Air
               </p>
             </div>
           </div>
           <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            Here at ZPSC we focus on sustatainable and environmental friendly actions and preserving the plate for generation to come
+            Here at ZPSC we focus on sustatainable and environmental friendly
+            actions and preserving the plate for generation to come
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          
             <a
               href="#"
               className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"

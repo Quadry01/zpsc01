@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 
-    plugins: [
-    require('tailwindcss-animated')
-  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,12 +11,13 @@ module.exports = {
       backgroundImage: {
         "hero-bg": "url('/public/hero.jpg')",
         "about-bg": "url('/public/abt.jpg')",
+        "contact-bg": "url('/public/contact.jpg')",
       },
       colors: {
         "gray-blue": "#2C4E80",
-        "green-blue": "#153448"
+        "green-blue": "#153448",
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 };
